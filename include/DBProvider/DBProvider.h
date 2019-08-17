@@ -104,10 +104,10 @@ private:
 };
 
 // Vector for containing object data
-typedef vector<ObjectData> objectDataVectorType;
+typedef vector<ObjectData> objectDataVector;
 
 // Vector for containing script data
-typedef vector<ScriptData> scriptDataVectorType;
+typedef vector<ScriptData> scriptDataVector;
 
 class DBProvider
 {
@@ -143,7 +143,7 @@ public:
 	}
 
 	// Returns the MIME type of the data at the given URI
-	static objectDataVectorType getType(ObjectData obj)
+	static objectDataVector getType(ObjectData obj)
 	{
 		return {};
 	}
