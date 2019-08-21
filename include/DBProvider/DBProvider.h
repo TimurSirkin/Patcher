@@ -114,6 +114,8 @@ class DBProvider
 public:
 	explicit DBProvider(string &loginStringPG);
 
+	DBProvider() = default;
+
 	~DBProvider();
 
 	// Returns all objects of database
